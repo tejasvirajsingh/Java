@@ -12,7 +12,7 @@ public class decimal {
         System.out.println("b != c is " + (b!= c));
         System.out.println("b == a+c is " + (b==a+c));
 
-         System.out.println(" Mr Max is So Danger Person .");
+         System.out.println(" Mr Max is So Danger Person.");
 
     }
 }
