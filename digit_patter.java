@@ -9,7 +9,7 @@ public class digit_patter {
             System.out.print("\n");
 
         }
-        System.out.println(" Screen Display Done");
+        System.out.println(" Screen Display Done!");
 
     }
 }
