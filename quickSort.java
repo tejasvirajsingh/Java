@@ -29,7 +29,7 @@ public class quickSort {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of elements: ");
+        System.out.print("Enter the number of element: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
         System.out.println("Enter " + n + " elements:");
