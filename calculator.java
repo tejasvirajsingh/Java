@@ -44,7 +44,7 @@ public class calculator {
 
 
             default: 
-            System.out.println("invalid operator!");
+            System.out.println("invalid operator! ");
             return ;
 
         
