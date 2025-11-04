@@ -7,7 +7,7 @@ public class timeOfUnique {
 
         long uniqueTime = System.currentTimeMillis();
 
-        System.out.println("Here is a unique number (current milliseconds):");
+        System.out.println("Time Calculate Till 1970 to Today ( milliseconds):");
         System.out.println(uniqueTime);
     }
 }
