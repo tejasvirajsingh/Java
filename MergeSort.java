@@ -2,19 +2,19 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    // Function to merge two sorted halves
     void merge(int[] arr, int left, int mid, int right) {
         // Find sizes of two sub-arrays to be merged
         int n1 = mid - left + 1;
         int n2 = right - mid;
 
-        // Create temporary arrays
-        int[] L = new int[n1];
-        int[] R = new int[n2];
+          // Create temporary arrays
+         int[] L = new int[n1];
+         int[] R = new int[n2];
 
-        // Copy data to temp arrays L[] and R[]
+         // Copy data to temp arrays L[] and R[]
         for (int i = 0; i < n1; ++i)
             L[i] = arr[left + i];
+
         for (int j = 0; j < n2; ++j)
             R[j] = arr[mid + 1 + j];
 
@@ -30,6 +30,7 @@ public class MergeSort {
                 arr[k] = L[i];
                 i++;
             } else {
+               
                 arr[k] = R[j];
                 j++;
             }
@@ -54,6 +55,7 @@ public class MergeSort {
     // Main function that sorts arr[left..right] using merge()
     void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
+            
             // Find the middle point
             int mid = left + (right - left) / 2;
 
