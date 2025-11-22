@@ -21,7 +21,7 @@ public class AverageOfPostive {
             System.out.println("Average of positive number is " + average);
         }
         else {
-            System.out.println("NO Positive number in the Array.");
+            System.out.println("Not a  Positive number in the Array.");
         }
     }
 }
