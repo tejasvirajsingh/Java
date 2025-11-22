@@ -18,7 +18,7 @@ public class AverageOfPostive {
 
         if (count > 0){
             double average = (double) sum / count;
-            System.out.println("Average of positive number is " + average);
+            System.out.println("Average of positive number is:  " + average);
         }
         else {
             System.out.println("Not a  Positive number in the Array.");
