@@ -38,19 +38,20 @@ public class FindTimeCom {
     public static void main(String[] args) {
         int n = 5;
 
-        System.out.println("O(1) - Constant Time:");
+        System.out.println("O(1) - Constant Time: ");
         constantTime(n);
 
         System.out.println("\nO(n) - Linear Time:");
         linearTime(n);
 
-        System.out.println("\nO(n^2) - Quadratic Time:");
+
+        System.out.println("\nO(n^2) - Quadratic Time: ");
         quadraticTime(n);
 
-        System.out.println("\nO(log n) - Logarithmic Time:");
+        System.out.println("\nO(log n) - Logarithmic Time: ");
         logarithmicTime(n);
 
-        System.out.println("\nO(n log n) - Linearithmic Time:");
+        System.out.println("\nO(n log n) - Linearithmic Time: ");
         linearithmicTime(n);
     }
 }
