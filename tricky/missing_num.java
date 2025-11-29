@@ -10,6 +10,6 @@ public  class missing_num {
 
         }
         int missing_num = exp_Sum - sum;
-        System.out.println("Missingh Number is: " + missing_num);
+        System.out.println("Missingh Number is : " + missing_num);
     }
 }
