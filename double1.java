@@ -9,8 +9,9 @@ public class double1 {
 
         System.out.println(x+y);
         System.out.println(a);
-        System.out.println("Max jii ");
-        System.out.println(a+y);
+         System.out.println(a+y);
+        System.out.println("Max");
+       
         
     }
 }
