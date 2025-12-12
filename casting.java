@@ -29,6 +29,7 @@ public class casting {
         System.out.println(" (short) i = " + s2);
         System.out.println( " (float)l = "+ n1);
         System.out.println( " (int) f1 = " + m1);
+        // The java update some error . Fix it by Mr Max
 
     }
 }
