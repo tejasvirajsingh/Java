@@ -156,7 +156,7 @@ public class bankingsystem {
                 }
             } while (choice != 4);
         } else {
-            System.out.println("⚠️ Account not found! Please check your number.");
+            System.out.println("⚠️ Account not found! Please check your Account number.");
         }
     }
 
@@ -173,3 +173,4 @@ public class bankingsystem {
 }
 
 
+// this is java program for Banking managment..
